@@ -1,0 +1,129 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\BONNAH\\Desktop\\Fast\\Fast\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Fast.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Fast.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\BONNAH\\Desktop\\Fast\\Fast\\wwwroot\\app.css",
+      "PackagePath": "staticwebassets\\app.css"
+    },
+    {
+      "Id": "C:\\Users\\BONNAH\\Desktop\\Fast\\Fast\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\BONNAH\\Desktop\\Fast\\Fast\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\BONNAH\\Desktop\\Fast\\Fast\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "C:\\Users\\BONNAH\\Desktop\\Fast\\Fast\\wwwroot\\images\\auth.jpg",
+      "PackagePath": "staticwebassets\\images\\auth.jpg"
+    },
+    {
+      "Id": "C:\\Users\\BONNAH\\Desktop\\Fast\\Fast\\wwwroot\\images\\auth2.jpg",
+      "PackagePath": "staticwebassets\\images\\auth2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\BONNAH\\Desktop\\Fast\\Fast\\wwwroot\\images\\down.svg",
+      "PackagePath": "staticwebassets\\images\\down.svg"
+    },
+    {
+      "Id": "C:\\Users\\BONNAH\\Desktop\\Fast\\Fast\\wwwroot\\images\\download (1).svg",
+      "PackagePath": "staticwebassets\\images\\download (1).svg"
+    },
+    {
+      "Id": "C:\\Users\\BONNAH\\Desktop\\Fast\\Fast\\wwwroot\\images\\download (2).svg",
+      "PackagePath": "staticwebassets\\images\\download (2).svg"
+    },
+    {
+      "Id": "C:\\Users\\BONNAH\\Desktop\\Fast\\Fast\\wwwroot\\images\\download (4).svg",
+      "PackagePath": "staticwebassets\\images\\download (4).svg"
+    },
+    {
+      "Id": "C:\\Users\\BONNAH\\Desktop\\Fast\\Fast\\wwwroot\\images\\download (5).svg",
+      "PackagePath": "staticwebassets\\images\\download (5).svg"
+    },
+    {
+      "Id": "C:\\Users\\BONNAH\\Desktop\\Fast\\Fast\\wwwroot\\images\\download (6).svg",
+      "PackagePath": "staticwebassets\\images\\download (6).svg"
+    },
+    {
+      "Id": "C:\\Users\\BONNAH\\Desktop\\Fast\\Fast\\wwwroot\\images\\download (7).svg",
+      "PackagePath": "staticwebassets\\images\\download (7).svg"
+    },
+    {
+      "Id": "C:\\Users\\BONNAH\\Desktop\\Fast\\Fast\\wwwroot\\images\\download (8).svg",
+      "PackagePath": "staticwebassets\\images\\download (8).svg"
+    },
+    {
+      "Id": "C:\\Users\\BONNAH\\Desktop\\Fast\\Fast\\wwwroot\\images\\download.svg",
+      "PackagePath": "staticwebassets\\images\\download.svg"
+    },
+    {
+      "Id": "C:\\Users\\BONNAH\\Desktop\\Fast\\Fast\\wwwroot\\images\\envato_market-dd390ae860330996644c1c109912d2bf63885fc075b87215ace9b5b4bdc71cc8.svg",
+      "PackagePath": "staticwebassets\\images\\envato_market-dd390ae860330996644c1c109912d2bf63885fc075b87215ace9b5b4bdc71cc8.svg"
+    },
+    {
+      "Id": "C:\\Users\\BONNAH\\Desktop\\Fast\\Fast\\wwwroot\\images\\hero.png",
+      "PackagePath": "staticwebassets\\images\\hero.png"
+    },
+    {
+      "Id": "C:\\Users\\BONNAH\\Desktop\\Fast\\Fast\\wwwroot\\images\\single-project-01EuJpWq.jpg",
+      "PackagePath": "staticwebassets\\images\\single-project-01EuJpWq.jpg"
+    },
+    {
+      "Id": "C:\\Users\\BONNAH\\Desktop\\Fast\\Fast\\wwwroot\\images\\single-project1-D3gU-QXi.jpg",
+      "PackagePath": "staticwebassets\\images\\single-project1-D3gU-QXi.jpg"
+    },
+    {
+      "Id": "C:\\Users\\BONNAH\\Desktop\\Fast\\Fast\\wwwroot\\images\\single-project2-CiQcR_5c.jpg",
+      "PackagePath": "staticwebassets\\images\\single-project2-CiQcR_5c.jpg"
+    },
+    {
+      "Id": "C:\\Users\\BONNAH\\Desktop\\Fast\\Fast\\wwwroot\\images\\single-project3-DdDTzETX.jpg",
+      "PackagePath": "staticwebassets\\images\\single-project3-DdDTzETX.jpg"
+    },
+    {
+      "Id": "C:\\Users\\BONNAH\\Desktop\\Fast\\Fast\\wwwroot\\images\\single-project4-RHyDRCj3.jpg",
+      "PackagePath": "staticwebassets\\images\\single-project4-RHyDRCj3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\BONNAH\\Desktop\\Fast\\Fast\\wwwroot\\images\\work1.jpg",
+      "PackagePath": "staticwebassets\\images\\work1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\BONNAH\\Desktop\\Fast\\Fast\\wwwroot\\images\\work2-DtmWxhl8.jpg",
+      "PackagePath": "staticwebassets\\images\\work2-DtmWxhl8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\BONNAH\\Desktop\\Fast\\Fast\\wwwroot\\images\\work3-BeTDGQxd.jpg",
+      "PackagePath": "staticwebassets\\images\\work3-BeTDGQxd.jpg"
+    },
+    {
+      "Id": "C:\\Users\\BONNAH\\Desktop\\Fast\\Fast\\wwwroot\\images\\work4-MDM2TfKy.jpg",
+      "PackagePath": "staticwebassets\\images\\work4-MDM2TfKy.jpg"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Fast.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.Fast.props",
+      "PackagePath": "build\\Fast.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.Fast.props",
+      "PackagePath": "buildMultiTargeting\\Fast.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.Fast.props",
+      "PackagePath": "buildTransitive\\Fast.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

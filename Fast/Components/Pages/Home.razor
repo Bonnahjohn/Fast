@@ -1,0 +1,74 @@
+﻿@page "/"
+
+
+<PageTitle>Home</PageTitle>
+
+<Container class="pt-5">
+
+@* mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm Hero of the home page mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm *@
+<Grid Gap="Gap.Is4" class=" mt-4  d-flex flex-lg-row flex-column flex-sm-column flex-md-column ">
+<Column ColumnSize="ColumnSize.Is4.OnDesktop.IsFull.OnTablet"    style="background-color: rgb(18 18 20);border-radius: 20px;" class="py-5 px-3" >
+<Image Source="images/hero.png" Width="Width.Rem(20)" class="mx-auto d-block"/>
+<Heading Size="HeadingSize.Is2" TextAlignment="TextAlignment.Center">Bonnah John</Heading> 
+<Paragraph TextAlignment="TextAlignment.Center" class="pt-3">I am a Flutter  and Asp.Net Web Developer</Paragraph>
+@* mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm the 4 buttons mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm *@
+<Div Flex="Flex.Row.JustifyContent.Around" >
+    <Button Outline disabled class="py-4 px-3"><Icon Name="IconName.Apple" IconSize="IconSize.x2"/></Button>
+     <Button Outline disabled class="py-4 px-3"><Icon Name="IconName.Link" IconSize="IconSize.x2"/></Button>
+      <Button Outline disabled class="py-4 px-3"><Icon Name="IconName.Phone" IconSize="IconSize.x2"/></Button> 
+      <Button Outline disabled class="py-4 px-3"><Icon Name="IconName.Cloud" IconSize="IconSize.x2"/></Button>
+    </Div>
+</Column>
+@* mmmmmmmmmmmmmmmmm second section of the hero mmmmmmmmmmmmmmmmm *@
+<Column ColumnSize="ColumnSize.Is8.OnDesktop.IsFull.OnTablet"  id="down">
+<Div style="background-color: rgb(18 18 20);border-radius: 20px;" class="py-5 px-4" >
+<Paragraph>Hello There!</Paragraph>
+<DisplayHeading TextSize="TextSize.Heading1" >I'm Bonnah John,a Flutter and .Net Web Developer who uses Flutter framework and .net to build mobile app and website.</DisplayHeading>
+@* mmmmmmmmmmmmmmmmm available badge mmmmmmmmmmmmmmmmm *@
+<Div Flex="Flex.Row.JustifyContent.Start" Margin="Margin.Is5.FromTop">
+    <Div class=" rounded-circle my-2" style="background-color: lime;width: 10px;height: 10px;" Margin="Margin.Is3.FromEnd"></Div> 
+    <Paragraph TextColor="TextColor.Muted">Available for Freelancing</Paragraph>
+</Div>
+@* mmmmmmmmmmmmmmmmm button for cv download mmmmmmmmmmmmmmmmm *@
+<Div class="d-flex justify-content-lg-start mt-4 "><Button Color="Color.Danger" Size="Size.Large" >Dwonload cv <Image Source="images/down.svg"  Text="let's talk" Margin="Margin.Is3.FromStart"/></Button></Div>
+</Div>
+@* mmmmmmmmmmmmmmmmm those i collabrate with mmmmmmmmmmmmmmmmm *@
+<Div style="background-color: rgb(18 18 20);border-radius: 20px;" class="py-4  mt-5" Display="Display.Block.OnDesktop.Block.OnTablet.None.OnMobile">
+<Heading Size="HeadingSize.Is5" class="mt-3 ps-4">Those I have Worked With</Heading>
+@* mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm the 4 buttons for those i have worked with mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm *@
+<Div Flex="Flex.Row.OnDesktop.JustifyContent.Between"  Margin="Margin.Is4.FromTop" class="px-4 py-2 " >
+    <Button Outline disabled class="py-1 px-3 ">Evans Obeng</Button>
+     <Button Outline disabled class="py-1 px-3 ">Prince Asante Mensah</Button>
+      <Button Outline disabled class="py-1 px-3 ">Romeo Agyeman</Button> 
+      <Button Outline disabled  class="py-1 px-3 ">Samuel Lartey</Button>
+    </Div>
+</Div>
+
+@* mmmmmmmmmmmmmmmmm those i collabrate with for mobile only mmmmmmmmmmmmmmmmm *@
+<Div style="background-color: rgb(18 18 20);border-radius: 20px;" class="py-4 px-3 mt-4" Display="Display.None.OnDesktop.None.OnTablet.Block.OnMobile">
+<Heading Size="HeadingSize.Is5">Those I have Worked With</Heading>
+@* mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm the 4 buttons for those i have worked with mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm *@
+<Div Flex="Flex.Column.OnMobile.JustifyContent.Around"  Margin="Margin.Is4.FromTop" class="swaping py-2 " >
+    <Button Outline disabled class="py-2 px-1 ">Evans Obeng</Button>
+     <Button Outline disabled class="py-2 px-1 space">Prince Asante Mensah</Button>
+      <Button Outline disabled class="py-2 px-1 space">Romeo Agyeman</Button> 
+      <Button Outline disabled class="py-2 px-1 space">Samuel Lartey</Button>
+    </Div>
+</Div>
+</Column>
+</Grid>
+
+</Container>
+
+
+ @* mmmmmmmmmmmmmmmmmmmmmmmmmmmmm Tabs mmmmmmmmmmmmmmmmmmmmmmmmmmmmm *@
+@* <Container >
+    <TabsSec/>
+</Container> *@
+ @* mmmmmmmmmmmmmmmmmmmmmmmmmmmmm Repeat footer mmmmmmmmmmmmmmmmmmmmmmmmmmmmm *@
+<Container>
+  <Underneath/>
+</Container>
+
+ @* mmmmmmmmmmmmmmmmmmmmmmmmmmmmm  footer mmmmmmmmmmmmmmmmmmmmmmmmmmmmm *@
+ <Footer/>

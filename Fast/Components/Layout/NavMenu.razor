@@ -1,0 +1,26 @@
+﻿
+
+@rendermode InteractiveServer
+
+
+
+<Bar Breakpoint="Breakpoint.Desktop"
+     Background="Background.Dark"
+     ThemeContrast="ThemeContrast.Dark" class="w-100 fixed-top" >
+  <Container> 
+    <BarBrand TextSize="TextSize.Heading4" TextWeight="TextWeight.Bold">Bonnah</BarBrand>
+    <BarToggler />
+     <BarMenu >
+        <BarStart class="mx-auto" id="Bar">
+            <BarItem><BarLink To="/">Home</BarLink></BarItem>
+              <BarItem><BarLink To="/about">About</BarLink></BarItem>
+                <BarItem><BarLink To="/service">Services</BarLink></BarItem>
+                  <BarItem><BarLink To="/works">Works</BarLink></BarItem>
+                    <BarItem><BarLink To="/contact" >Contact</BarLink></BarItem>
+            </BarStart>
+            <BarEnd>
+                <BarItem class="d-flex "><Button Outline class="btn btn-success">Call me  <Icon Name=" IconName.HandsHelping"/></Button></BarItem>
+            </BarEnd>
+    </BarMenu>
+    </Container>
+</Bar>

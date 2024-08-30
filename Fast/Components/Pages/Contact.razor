@@ -1,0 +1,83 @@
+﻿@page "/contact"
+@rendermode InteractiveServer
+
+<PageTitle>Contact Us</PageTitle>
+<Div class="  z-0 pt-5">
+<Container class="pt-4">
+<Div style="background-color: rgb(18 18 20);border-radius: 20px;" class="pb-5">
+<Heading Size="HeadingSize.Is6" TextAlignment="TextAlignment.Center" class="pt-5">Contact</Heading>
+<br><Heading Size="HeadingSize.Is1" TextAlignment="TextAlignment.Center">Get In Touch With Me!</Heading>
+<br>
+<br>
+
+@* mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm the two section in the contact hero part mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm *@
+<Row  Margin="Margin.Is3.OnDesktop.Is0.OnMobile.FromStart.Is5.FromEnd.OnDesktop.Is0.OnMobile"   >
+   <Column ColumnSize="ColumnSize.Is4.OnDesktop.Is6.OnTablet" Margin="Margin.Is0.FromBottom.OnDesktop.Is5.FromBottom.OnMobile">
+ <Div  class="px-3 py-4 border-white border-2 rounded-t-lg rounded-b-lg">
+<Icon Name="IconName.LocationArrow" class="text-danger"/>  <br>
+<Text TextSize="TextSize.Large">Our Office:</Text>
+<Paragraph>Jurain,Dhaka Bangladesh</Paragraph>
+
+
+<br>
+@* mmmmmmmmmmmmmmmmm contact mmmmmmmmmmmmmmmmm *@
+<Icon Name="IconName.Phone" class="text-danger"/>  <br>
+<Text TextSize="TextSize.Large">Contact Number:</Text>
+<Paragraph>+1234321321</Paragraph>
+
+<br>
+
+@* mmmmmmmmmmmmmmmmm mail mmmmmmmmmmmmmmmmm *@
+<Icon Name="IconName.Mail" class="text-danger"/>  <br>
+<Text TextSize="TextSize.Large">Email Us:</Text>
+<Paragraph>Gcb3Name@gmail.com</Paragraph>
+ </Div>
+    </Column>
+ @* mmmmmmmmmmmmmmmmmmmmmmmmmmmmm contacts input mmmmmmmmmmmmmmmmmmmmmmmmmmmmm *@
+
+       <Column ColumnSize="ColumnSize.Is8.OnDesktop.Is12.OnMobile.Is6.OnTablet" class="border-1 py-4 rounded-t-lg rounded-b-lg " Padding="Padding.Is5.FromStart"  >
+  <Fields>
+
+<Field ColumnSize="ColumnSize.IsHalf.OnDesktop.IsFull.OnMobile">
+    <FieldLabel TextColor="TextColor.Muted" TextWeight="TextWeight.SemiBold" TextSize="TextSize.Large">Full Name</FieldLabel>
+  <TextEdit Size="Size.Large"/>
+</Field>
+ @* mmmmmmmmmmmmmmmmmmmmmmmmmmmmm cemail address mmmmmmmmmmmmmmmmmmmmmmmmmmmmm *@
+<Field ColumnSize="ColumnSize.IsHalf.OnDesktop.IsFull.OnMobile.IsFull.OnTablet">
+    <FieldLabel TextColor="TextColor.Muted" TextWeight="TextWeight.SemiBold" TextSize="TextSize.Large">Email Address</FieldLabel>
+    <TextEdit Size="Size.Large"/>
+</Field>
+
+ @* mmmmmmmmmmmmmmmmmmmmmmmmmmmmm textarea mmmmmmmmmmmmmmmmmmmmmmmmmmmmm *@
+<Field ColumnSize="ColumnSize.IsFull.OnDesktop.IsFull.OnMobile">
+    <FieldLabel TextColor="TextColor.Muted" TextWeight="TextWeight.SemiBold" TextSize="TextSize.Large">Your Message</FieldLabel>
+   <FieldBody > <TextEdit Size="Size.ExtraLarge" style="height: 20vh;" /></FieldBody>
+</Field>
+
+<Field class="pt-2"><FieldBody><Button class="btn btn-danger" Size="Size.Large" Border="Border.Rounded">Send Me Message</Button></FieldBody></Field>
+  </Fields>
+    </Column>
+</Row>
+</Div>
+
+
+</Container>
+
+ @* mmmmmmmmmmmmmmmmmmmmmmmmmmmmm Repeat footer mmmmmmmmmmmmmmmmmmmmmmmmmmmmm *@
+<Container>
+  <Underneath/>
+</Container>
+
+ @* mmmmmmmmmmmmmmmmmmmmmmmmmmmmm  footer mmmmmmmmmmmmmmmmmmmmmmmmmmmmm *@
+ <Footer/>
+ 
+ </Div>
+
+@code {
+    private int currentCount = 0;
+
+    private void IncrementCount()
+    {
+        currentCount++;
+    }
+}

@@ -1,0 +1,65 @@
+@rendermode InteractiveServer
+<Div style="background-color: rgb(18 18 20);border-radius: 20px;" class="mt-5 py-4">
+
+<Heading TextAlignment="TextAlignment.Center" Size="HeadingSize.Is1" TextWeight="TextWeight.SemiBold">Works & Projects</Heading> <br>
+<Paragraph TextAlignment="TextAlignment.Center">Check out some of my projects,meticulously crafted with love and <br> dedication, each one reflecting the passion and soul I poured into every <br> detail.</Paragraph>
+
+
+ @* mmmmmmmmmmmmmmmmmmmmmmmmmmmmm Tabs mmmmmmmmmmmmmmmmmmmmmmmmmmmmm *@
+<Container>
+     <Tabs SelectedTab="@selectedTab" SelectedTabChanged="@onSelectedTabChanged"  >
+    <Items >
+        <Tab Name="all" >All</Tab>
+             <Tab Name="design">Design</Tab>    
+              <Tab Name="game">Game</Tab>  
+                <Tab Name="branding">Branding</Tab> 
+                    @* <Tab Name="marketing">Marketing</Tab> *@
+    </Items>
+    
+ @* mmmmmmmmmmmmmmmmmmmmmmmmmmmmm Tabs contentmmmmmmmmmmmmmmmmmmmmmmmmmmmmm *@
+ <Content  >
+    <TabPanel Name="all" >
+    <Row Margin="Margin.Is3.FromTop" class="mt-3 d-flex justify-content-around mx-4" >
+        <Column ColumnSize="ColumnSize.Is3.OnDesktop.Is12.OnMobile" Border="Border.Is1" class="w-25"  >
+        <Image Source="images/work1.jpg" Fluid/>
+<br>
+<Paragraph>Design</Paragraph>
+<Heading TextColor="TextColor.Dark">Mobil App Development</Heading>
+<br>
+        </Column>
+         @* mmmmmmmmmmmmmmmmmmmmmmmmmmmmm second image mmmmmmmmmmmmmmmmmmmmmmmmmmmm *@
+             <Column ColumnSize="ColumnSize.Is3.OnDesktop.Is12.OnMobile" Border="Border.Is1" class="w-25" >
+        <Image Source="images/work1.jpg" Fluid/>
+<br>
+<Paragraph>Design</Paragraph>
+<Heading TextColor="TextColor.Dark">Mobil App Development</Heading>
+<br>
+        </Column>
+          @* mmmmmmmmmmmmmmmmmmmmmmmmmmmmm third image mmmmmmmmmmmmmmmmmmmmmmmmmmmm *@
+             <Column ColumnSize="ColumnSize.Is3.OnDesktop.Is12.OnMobile" Border="Border.Is1" class="w-25">
+        <Image Source="images/work1.jpg" Fluid/>
+<br>
+<Paragraph>Design</Paragraph>
+<Heading TextColor="TextColor.Dark">Mobil App Development</Heading>
+<br>
+        </Column>
+
+    </Row>
+    </TabPanel>
+
+    <TabPanel Name="design">
+        gg
+    </TabPanel>
+ </Content>
+ </Tabs></Container>
+</Div>
+
+@code{
+    string selectedTab="all";
+    private Task onSelectedTabChanged(string name){
+        selectedTab=name;
+        return Task.CompletedTask;
+
+    }
+
+}
